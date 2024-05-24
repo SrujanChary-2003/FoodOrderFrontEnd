@@ -1,0 +1,21 @@
+export const cuisineList = [
+    "Veg-Burger", 
+    "Non-Veg Burger", 
+    "Veg Pizza", 
+    "NonVeg Pizza", 
+    "PanCake", 
+    "Donuts", 
+    "CupCakes", 
+    "veg Noodles", 
+    'Egg Noodles', 
+    "Non veg Noodles", 
+    "Veg Biryani",
+    "Non Veg Biryani", 
+    "Veg Mandi", 
+    "Non veg Mandi", 
+    "Veg Starters", 
+    "Non veg Starters", 
+    "BBQ", 
+    "DoraCakes",
+    "Cookies"
+];
