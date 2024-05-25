@@ -26,3 +26,12 @@ export type Restaurant = {
     lastUpdated: string;
 
 }
+
+export type RestaurantsearchResponse = {
+    data: Restaurant[];
+    pagination: {
+        total: number;
+        page: number;
+        pages: number;
+    }
+}
