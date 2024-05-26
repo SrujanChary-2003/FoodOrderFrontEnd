@@ -76,7 +76,7 @@ const DetailPage = () => {
             cartItems: cartItems.map((cartItem)=> ({
                 menuItemId: cartItem._id,
                 name: cartItem.name,
-                quantity: cartItem.quantity.toString(),
+                quantity: cartItem.quantity,
             })),
             restaurantId: restaurant._id,
             deliveryDetails: {
